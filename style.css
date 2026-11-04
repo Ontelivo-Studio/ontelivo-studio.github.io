@@ -40,8 +40,8 @@ p { margin: 0; }
 .site-header { border-bottom: 1px solid var(--line); }
 .site-header .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 28px; padding-top: 18px; padding-bottom: 18px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--fg); }
-.brand .mark { width: 40px; height: 40px; border-radius: 10px; overflow: hidden; background: var(--night); display: grid; place-items: center; }
-.brand .mark img { width: 40px; height: 40px; display: block; }
+.brand .mark { width: 40px; height: 40px; border-radius: 10px; background: var(--night); display: grid; place-items: center; }
+.brand .mark img { width: 32px; height: 32px; display: block; }
 .brand .word { font-family: var(--display); font-size: 26px; line-height: 1; color: var(--gold); }
 body.paper .brand .word { color: var(--fg); }
 .nav { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 26px; font-size: 16px; font-weight: 700; }
