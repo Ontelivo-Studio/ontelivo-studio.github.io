@@ -6,8 +6,8 @@ Static HTML and CSS only; no build step, no analytics, no cookies, no scripts, n
 
 ## Pages
 
-- `index.html`: home (studio, the game in short, tester call).
-- `chess-abstract/`: the game page. Describes the idea of the game, not numbers that change (levels, chapters, languages, dates).
+- `index.html`: home (hero, the goal, the story of the studio, tester call).
+- `chess-abstract/`: the game page. Describes the idea of the game, not numbers that change (levels, chapters, languages, dates). Keep it to what is true of the game today.
 - `chess-abstract/support/`: support, contact and FAQ.
 - `chess-abstract/privacy/`: privacy policy (Play URL, plan item B8).
 - `chess-abstract/terms/`: terms of use (L6).
