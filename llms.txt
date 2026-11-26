@@ -1,0 +1,19 @@
+# Ontelivo
+
+> Ontelivo is a one-person indie game studio. Its first game, Chess Abstract, is a free chess puzzle game for Android, available on Google Play.
+
+## Chess Abstract
+- [Game page](https://ontelivo.com/chess-abstract/): what the game is, how it plays, FAQ
+- [Google Play listing](https://play.google.com/store/apps/details?id=com.ontelivo.chessabstract): download for Android
+- [Support and FAQ](https://ontelivo.com/chess-abstract/support/): progress, privacy, contact
+- [Privacy policy](https://ontelivo.com/chess-abstract/privacy/)
+- [Terms of use](https://ontelivo.com/chess-abstract/terms/)
+
+## Key facts
+- Developer and publisher: Ontelivo (https://ontelivo.com/)
+- Platform: Android (Google Play). Category: Puzzle
+- The pieces keep their usual chess moves; every level is a short logic puzzle with its own goal; chapters are set in places around the world
+- A daily puzzle, an endless mode, hints, and a guide to how every piece moves
+- Free to download; contains optional rewarded ads (Google AdMob)
+- No account; progress is stored on the player's phone
+- Contact: support@ontelivo.com

@@ -6,13 +6,17 @@ Static HTML and CSS only; no build step, no analytics, no cookies, no scripts, n
 
 ## Pages
 
-- `index.html`: home (hero, the goal, the story of the studio, tester call).
-- `chess-abstract/`: the game page. Describes the idea of the game, not numbers that change (levels, chapters, languages, dates). Keep it to what is true of the game today.
+- `index.html`: home (hero with Google Play button, the goal, the story of the studio, download call).
+- `chess-abstract/`: the game page (hero, how it plays, FAQ, download band). Describes the idea of the game, not numbers that change (levels, chapters, languages, dates). Keep it to what is true of the game today and in step with the Google Play listing. The visible FAQ and the FAQPage JSON-LD in its head must match word for word.
+- `play/`: short, noindex link page with one Google Play button. Use `https://ontelivo.com/play/` in the Instagram bio and other social profiles instead of the raw Play link.
 - `chess-abstract/support/`: support, contact and FAQ.
 - `chess-abstract/privacy/`: privacy policy (Play URL, plan item B8).
 - `chess-abstract/terms/`: terms of use (L6).
-- `404.html`, `robots.txt`, `sitemap.xml`, `img/` (covers, logo, favicons, social preview), `fonts/`.
+- `llms.txt`: short fact sheet for AI search engines; update it when the Play listing facts change (category, ads, purchases).
+- `404.html`, `robots.txt`, `sitemap.xml`, `img/` (covers, logo, favicons, social previews: `og.png` for the studio, `og-chess-abstract.jpg` for the game and `/play/`), `fonts/`.
 - `CNAME` holds the custom domain; `.nojekyll` turns off Jekyll.
+
+The Google Play link (`https://play.google.com/store/apps/details?id=com.ontelivo.chessabstract`) appears in the nav, the home hero and download band, and the game page; change it everywhere at once if the package name ever changes.
 
 ## Keep in step with the game
 
