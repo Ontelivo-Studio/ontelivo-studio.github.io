@@ -131,12 +131,14 @@ em.accent { font-family: var(--display); font-style: italic; font-weight: 400; c
 
 
 
-/* short link page (Instagram bio etc.) */
-.linkpage .wrap { max-width: 560px; padding-top: 56px; padding-bottom: 72px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 20px; }
-.linkpage .appicon { width: 112px; height: 112px; border-radius: 26px; }
-.linkpage .btn { width: 100%; max-width: 360px; min-height: 60px; font-size: 19px; }
-
-.linkpage .lead { text-wrap: balance; }
+/* short link page (Instagram bio etc.): picture, hook, one button */
+.linkpage .wrap { max-width: 560px; padding-top: 4px; padding-bottom: 56px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 14px; }
+.linkpage .scene { max-width: min(340px, 38vh); max-width: min(340px, 38svh); margin: -4px 0 -14px; }
+.linkpage .game { display: flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--soft); }
+.linkpage .game img { width: 40px; height: 40px; border-radius: 10px; }
+.linkpage h1 { font-size: clamp(34px, 9vw, 48px); line-height: 1.05; }
+.linkpage .lead { font-size: 19px; text-wrap: balance; }
+.linkpage .btn { width: 100%; max-width: 360px; min-height: 60px; font-size: 19px; margin-top: 4px; }
 .linkpage-help { font-size: 14px; color: var(--faint); max-width: 30em; }
 
 /* game page FAQ */
