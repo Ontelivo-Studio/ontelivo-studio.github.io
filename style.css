@@ -47,6 +47,8 @@ body.paper .brand .word { color: var(--fg); }
 .nav { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 26px; font-size: 16px; font-weight: 700; }
 .nav a { color: var(--fg); text-decoration: none; padding: 8px 0; }
 .nav a:hover { text-decoration: underline; text-underline-offset: 6px; }
+.nav a.nav-cta { padding: 8px 18px; border-radius: 999px; background: var(--lamp); color: var(--night); }
+.nav a.nav-cta:hover { background: #fff1cf; text-decoration: none; }
 .nav a[aria-current="page"] { color: var(--link); text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 2px; }
 
 /* buttons */
@@ -55,7 +57,10 @@ body.paper .brand .word { color: var(--fg); }
 .btn-primary:hover { background: #fff1cf; }
 .btn-ghost { border-color: var(--rim); color: var(--fg); }
 .btn-ghost:hover { background: var(--well); }
-.btn-static { background: var(--well); color: var(--cream); border-color: var(--rim); cursor: default; }
+.btn-play { gap: 10px; }
+.btn-play .play-ico { flex: none; }
+.btn-dark { background: var(--night); color: var(--lamp); }
+.btn-dark:hover { background: var(--well); }
 
 /* type */
 .eyebrow { font-size: 14px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--soft); }
@@ -107,9 +112,8 @@ em.accent { font-family: var(--display); font-style: italic; font-weight: 400; c
 .tester .left { flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 16px; }
 .tester .left p { max-width: 30em; }
 .tester a.mail { font-weight: 800; color: var(--night); overflow-wrap: anywhere; }
-.tester .right { flex: 1 1 420px; min-width: 0; margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; counter-reset: step; }
-.tester .right li { counter-increment: step; display: flex; gap: 16px; align-items: flex-start; padding: 18px 20px; border-radius: 14px; background: #fff1cf; }
-.tester .right li::before { content: counter(step); flex: none; width: 34px; height: 34px; border-radius: 50%; background: var(--night); color: var(--lamp); display: grid; place-items: center; font-weight: 800; }
+.tester .right { flex: 1 1 420px; min-width: 0; padding: 28px 30px; border-radius: 18px; background: #fff1cf; display: flex; flex-direction: column; gap: 12px; }
+.tester .hero-actions { margin-top: 8px; }
 
 /* game page */
 .gamehead .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 56px 72px; padding-top: 72px; padding-bottom: 88px; }

@@ -6,13 +6,15 @@ Static HTML and CSS only; no build step, no analytics, no cookies, no scripts, n
 
 ## Pages
 
-- `index.html`: home (hero, the goal, the story of the studio, tester call).
+- `index.html`: home (hero with Google Play button, the goal, the story of the studio, download call).
 - `chess-abstract/`: the game page. Describes the idea of the game, not numbers that change (levels, chapters, languages, dates). Keep it to what is true of the game today.
 - `chess-abstract/support/`: support, contact and FAQ.
 - `chess-abstract/privacy/`: privacy policy (Play URL, plan item B8).
 - `chess-abstract/terms/`: terms of use (L6).
 - `404.html`, `robots.txt`, `sitemap.xml`, `img/` (covers, logo, favicons, social preview), `fonts/`.
 - `CNAME` holds the custom domain; `.nojekyll` turns off Jekyll.
+
+The Google Play link (`https://play.google.com/store/apps/details?id=com.ontelivo.chessabstract`) appears in the nav, the home hero and download band, and the game page; change it everywhere at once if the package name ever changes.
 
 ## Keep in step with the game
 
