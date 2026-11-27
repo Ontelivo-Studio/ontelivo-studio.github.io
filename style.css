@@ -140,6 +140,8 @@ em.accent { font-family: var(--display); font-style: italic; font-weight: 400; c
 .linkpage .lead { font-size: 19px; text-wrap: balance; }
 .linkpage .btn { width: 100%; max-width: 360px; min-height: 60px; padding: 0 18px; font-size: 19px; margin-top: 4px; white-space: nowrap; }
 .linkpage .soon { font-size: 14px; font-weight: 700; color: var(--soft); padding: 6px 14px; border: 1px solid var(--well); border-radius: 999px; }
+.linkpage .social { font-size: 15px; color: var(--soft); text-decoration: underline; text-underline-offset: 3px; padding: 8px 4px; }
+.linkpage .social:hover { color: var(--fg); }
 
 /* game page FAQ */
 #faq .faq { gap: 0; max-width: 46em; margin-top: 8px; }

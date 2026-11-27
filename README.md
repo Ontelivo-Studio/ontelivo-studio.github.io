@@ -8,7 +8,7 @@ Static HTML and CSS only; no build step, no analytics, no cookies, no scripts, n
 
 - `index.html`: home (hero with Google Play button, the goal, the story of the studio, download call).
 - `chess-abstract/`: the game page (hero, how it plays, FAQ, download band). Describes the idea of the game, not numbers that change (levels, chapters, languages, dates). Keep it to what is true of the game today and in step with the Google Play listing. The visible FAQ and the FAQPage JSON-LD in its head must match word for word.
-- `play/`: short, noindex link page with one Google Play button. Use `https://ontelivo.com/play/` in the Instagram bio and other social profiles instead of the raw Play link.
+- `play/`: short, noindex link page with one Google Play button and a link to the TikTok profile (`@chess.abstract`). Use `https://ontelivo.com/play/` in the Instagram bio and other social profiles instead of the raw Play link.
 - `chess-abstract/support/`: support, contact and FAQ.
 - `chess-abstract/privacy/`: privacy policy (Play URL, plan item B8).
 - `chess-abstract/terms/`: terms of use (L6).
